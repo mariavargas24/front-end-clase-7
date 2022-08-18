@@ -1,7 +1,14 @@
 header {
-    background-color: #E6E6E6;
-    text-align: center;
+    background-color: crimson;
     padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    height: 100px;
 }
 
 body {
@@ -12,16 +19,16 @@ body {
 }
 
 h1 {
-font-family: 'Times New Roman';
+font-family: 'Silkscreen', cursive;
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
 line-height: 84.69%;
 font-feature-settings: 'cpsp' on;
-color: #005677;
+color: crimson;
 background-color: #C4C4C4;
 text-align: center;
-letter-spacing: 10px;
+letter-spacing: 5px;
 margin: 0;
 padding-top: 25px;
 
@@ -32,13 +39,13 @@ top: 188px;
 }
 
 h2 {
-font-family: 'Times New Roman';
+font-family: 'Silkscreen', cursive;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 84.69%;
 background-color: #C4C4C4;
-color: #005677;
+color: crimson;
 letter-spacing: 3px;
 text-indent: 1%;
 padding-top: 5px;
@@ -47,37 +54,120 @@ padding-bottom: 5px;
 
 
 .descripciones {
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
 }
 
+.detalles {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;    
+}
+
 .datos {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-style: normal;
     font-size: 15px;
 }
 
 .años {
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 15px;
     padding-left: 15px;
 }
 
 .margenes {
-    padding-left: 90px;
+    padding-left: 99px;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
-    font-family: 'Times New Roman';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 84.69%;
-    background-color: #005677;
+    background-color: crimson;
     color: #FFFFFF;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.fa-github {
+    color: #FFFFFF;
+}
+
+.fa-chess-knight {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.fa-gamepad{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.fa-chess-rook {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.fa-chess-king {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.fa-chess-queen {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;    
+}
+
+.perfil {
+    width: 100%;
+    display:flex;
+    max-width: 8000px;
+}
+
+.fa-trophy {
+    font-size: 80px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.sobre {
+    background-color: aquamarine;
+    padding-left: 10px;
+    size: 60px;
+    font-family: 'Silkscreen', cursive;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Mi {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.inicio {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
 }
